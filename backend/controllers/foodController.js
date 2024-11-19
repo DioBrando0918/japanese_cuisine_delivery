@@ -53,8 +53,22 @@ const removeFood = async (req,res)=>{
     }
 }
 
+const testCoor = async(req,res)=>{
+    try{
+        console.log(req.body);
+        res.status(200).json({
+            msg:"已收到"
+        });
+    }catch (error){
+        res.status(500).json({
+            msg:`${error}`
+        });
+    }
+}
+
 export {
     addFood,
     listFood,
-    removeFood
+    removeFood,
+    testCoor
 }
