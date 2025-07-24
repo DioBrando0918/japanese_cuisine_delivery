@@ -11,7 +11,7 @@ const orderSchema = new mongoose.Schema({
     status:{type:String,default:'Food processing'},
     createTime:{type:String,default: () => moment().format('YYYY-MM-DD HH:mm:ss')},
     paymentTime:{type:String},
-    payment:{type:Boolean,default:false}
+    payment:{type:Boolean,default:true}
 });
 
 const orderModel = mongoose.models.order || new mongoose.model('order',orderSchema);
