@@ -86,14 +86,14 @@ const OrderResult = () => {
                                             )
                                         })}</div>
                                     </div>
-                                    <div className='multi-field'>
+                                    {/* <div className='multi-field'>
                                         <p>支付方式:</p>
                                         <p>{data.paymentType}</p>
                                     </div>
                                     <div className='multi-field'>
                                         <p>支付時間:</p>
                                         <p>{data.paymentTime}</p>
-                                    </div>
+                                    </div> */}
                                     <div className='multi-field'>
                                         <p>總金額:</p>
                                         <p>{data.totalPrice}</p>

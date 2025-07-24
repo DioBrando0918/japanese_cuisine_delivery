@@ -35,8 +35,8 @@ const OrderHistory = () => {
                         <tr>
                             <th className='orderNo-col'>訂單編號</th>
                             <th className='create-time-col'>建立時間</th>
-                            {/* <th className='payment-time-col'>支付時間</th>
-                            <th className='payment-type-col'>支付方式</th> */}
+                            <th className='payment-time-col'>支付時間</th>
+                            <th className='payment-type-col'>支付方式</th>
                             <th className='merchandise-col'>商品內容</th>
                             <th className='address-col'>收貨地址</th>
                             <th className='total-price-col'>總金額</th>
